@@ -7,7 +7,19 @@
 body {
     height: 100%;
     font-family: roboto;
+        animation: fade 2s ease-in-out;
 }
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 
 .top {
     background-color: white;
@@ -55,6 +67,22 @@ p {
 
 section {
     margin-top: 5%;
+}
+.section{
+       animation: large 1.5s ease-in-out;
+}
+
+@keyframes large {
+    0% {
+        margin-left: 100%;
+        margin-right: 100%;
+    }
+
+    100% {
+        margin-left: 0%;
+        margin-bottom: 0%;
+    }
+
 }
 
 .bgcol {
