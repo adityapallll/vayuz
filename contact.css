@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    height: 100%;
+    font-family: roboto;
+    background: rgb(218, 80, 80);
+    ;
+}
+
+.top {
+    background-color: rgb(0, 0, 0);
+    height: 10%;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #f14242;
+}
+
+.h {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+
+}
+
+.c {
+    display: inline;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.column {
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 10em;
+    margin-left: 2%;
+
+}
+
+.col2 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2%;
+}
+
+.hero {
+    background-image: url("https://image.shutterstock.com/image-photo/portrait-successful-creative-business-team-260nw-1715989015.jpg");
+    background-repeat: no-repeat;
+    filter: blur(1px);
+    height: 50%;
+    width: 40%;
+    align-items: center;
+    margin-left: 30%;
+    top: 40%;
+}
+
+.box {
+    height: 50%;
+    width: 40%;
+    align-items: center;
+    margin-left: 30%;
+    top: 40%;
+    position: absolute;
+    z-index: 2;
+}
+
+.bid {
+    height: 40px;
+    width: 200px;
+    background-color: black;
+    color: azure;
+    border-radius: 10px;
+    border: rgb(255, 255, 255);
+    position: relative;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.bid2 {
+    height: 40px;
+    width: 70px;
+    background-color: rgb(83, 159, 221);
+    color: azure;
+    border-radius: 10px;
+    border: rgb(255, 255, 255);
+    position: relative;
+    padding: 20px;
+    margin: auto 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 2%;
+    margin-left: 20%;
+
+}
+
+.bid3 {
+    height: 60px;
+    width: 460px;
+    background-color: rgb(0, 0, 0);
+    color: azure;
+    border-radius: 10px;
+    border: rgb(255, 255, 255);
+    position: relative;
+    padding: 20px;
+    margin: auto 10px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 400;
+}
